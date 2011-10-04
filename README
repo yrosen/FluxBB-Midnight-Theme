@@ -1,18 +1,12 @@
 Dark theme, developed for and tested on FluxBB 1.4.
 To use, just copy the files to your FBB 'styles' folder, and select 'midnight' in the admin panel.
 
-This theme isn't done yet! I've got a few things left to fix:
 
-1) Navigation styles - Some random padding or something in there, could use fixing.
+My TODO list:
+ - Buttons
+ - Code boxes, h* elements, blockquotes, not sure what else
+ - Admin panel & profile pages
+ - Maybe some cool text effect for header
+ - Test in things other than Firefox
 
-2) Form elements - especially buttons. I still need to make them pretty.
-
-3) Admin panel - I haven't touched this (yet).
-
-4) Icons - Low priority, but icons are always fun to play with.
-
-5) Header - It looks boring. And I *could* use images but I'm trying to think of something cool.
-
-Additionally, it hasn't been tested yet in any browsers other than Firefox 4.
-
-If you use it, let me know! Feedback, questions, etc - you can contact me at yudi42@gmail.com.
+If you use it, please let me know! Feedback, questions, etc - you can contact me at yudi42@gmail.com.
