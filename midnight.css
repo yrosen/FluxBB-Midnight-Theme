@@ -2,14 +2,14 @@
  * Midnight theme for FluxBB 1.4
  * https://github.com/yrosen/FluxBB-Midnight-Theme
  *
- * Tested with FluxBB 1.4
+ * Tested with FluxBB 1.4.7
  * Based on FluxBB's Air theme.
  * Uses icons from FluxBB's Air theme and the Silk icon set
  *
  * TODO: REFACTOR THIS. REALLY.
  *
  * @author Yudi Rosen <yudi42@gmail.com>
- * @version NOT DONE YET!
+ * @version 1.0
  * @license GPL
  */
 
@@ -290,7 +290,6 @@ html, body, .pun table, .pun div, .pun form, .pun p, .pun h1, .pun h2, .pun h3, 
 	color: #CCC;
 	font-size: 14px;
 	font-weight: bold;
-	margin-left: 10px;
 	padding: 8px 14px 9px;
 	text-decoration: none;
 }
