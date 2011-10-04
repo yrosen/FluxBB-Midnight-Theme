@@ -6,7 +6,9 @@
  * Based on FluxBB's Air theme.
  * Uses icons from FluxBB's Air theme and the Silk icon set
  *
- * TODO: REFACTOR THIS. REALLY.
+ * TODO: REFACTOR THIS. REALLY. I modified the CSS that came with FluxBB,
+ * but I'm sure I can easily cut out dozens, if not hundreds, of lines, as
+ * well as make it easier to read.
  *
  * @author Yudi Rosen <yudi42@gmail.com>
  * @version 1.0
@@ -1323,21 +1325,17 @@ PROFILES (+ ADMIN MENU)
 }
 
 .pun .blockmenu ul {
-	border-top-style: dotted;
-	border-top-width: 1px;
 	padding: 0;
 }
 
 .pun .blockmenu li {
-	border-bottom-style: dotted;
-	border-bottom-width: 1px;
 	font-weight: bold;
 	padding: 0;
 }
 
 .pun .blockmenu a:link, .pun .blockmenu a:visited {
 	display: block;
-	padding: 9px 6px 3px 6px;
+	padding: 6px 9px 6px 9px;
 	min-height: 1px;
 	text-decoration: none;
 }
@@ -1591,17 +1589,9 @@ tr.roweven {
 	border-color: #080808;
 }
 
-.pun .blockmenu ul, .pun .blockmenu li {
-	border-color: #080808;
-}
-
-.pun .blockmenu a:hover, .pun .blockmenu a:active, .pun .blockmenu a:focus {
-	background: #ffffe6;
-}
-
-.pun .blockmenu .isactive a:link, .pun .blockmenu .isactive a:visited {
-	color: #333;
-	background: #202020;
+.pun .blockmenu a:hover, .pun .blockmenu a:active, .pun .blockmenu a:focus, .pun .blockmenu .isactive a:link, .pun .blockmenu .isactive a:visited {
+	color: white;
+	background: #222;
 }
 
 .pun #viewprofile .box {
