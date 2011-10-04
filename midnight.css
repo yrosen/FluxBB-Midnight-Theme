@@ -18,19 +18,21 @@
 /*****************************************************************
 1. INITIAL SETTINGS
 *****************************************************************/
-/* TODO: Integrate these:*/
-input[type=text], input[type=password], select {
+/* TODO: Integrate these: */
+input[type=text], input[type=password], select, textarea{
 	background: #252525;
-	border: 1px solid #070707;
+	border: 1px solid #555;
 	color: #CDCDCD;
 	padding: 3px 6px 3px 6px;
+	-moz-transition: border 0.3s linear 0s, color 0.2s linear 0s;
 }
 
 select {
-	padding: 3px;
+	padding: 5px 0 5px 3px;
 }
-input[type=text]:focus, input[type=password]:focus {
+input[type=text]:focus, input[type=password]:focus, select:focus, textarea:focus{
 	color: white;
+	border-color: #2365B0;
 }
 
 /* Limited Reset
