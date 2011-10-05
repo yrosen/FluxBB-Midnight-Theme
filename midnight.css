@@ -965,7 +965,7 @@ MAIN POSTS
 
 .pun .quotebox {
 	border-style: solid;
-	border-width: 1px 1px 1px 3px;
+	border-width: 1px;
 	margin: 0.75em 1em;
 	padding: 0 0.75em;
 }
@@ -1451,8 +1451,8 @@ html, body, .pun {
 	border-color: #080808;
 }
 
-#punindex .blocktable h2, .pun #vf h2 {
-	color: #2365b0;
+.pun h2 {
+	color: white;
 }
 
 #adminconsole fieldset th, #adminconsole fieldset td {
@@ -1512,19 +1512,14 @@ tr.roweven {
 	color: #566579;
 }
 
-.pun .quotebox {
-	background: #f8f9f0;
-	border-color: #7aadbd;
-	color: #566579;
+.pun .quotebox , .pun .codebox, #punhelp .codebox code {
+	background: #202020;
+	border-color: #555;
+	color: white;
 }
 
 .pun .quotebox cite {
 	color: #2365b0;
-}
-
-.pun .codebox, #punhelp .codebox code {
-	background: #333;
-	color: #fff;
 }
 
 .pun .postmsg hr {
