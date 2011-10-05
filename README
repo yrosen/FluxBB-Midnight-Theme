@@ -1,12 +1,14 @@
+"Midnight" theme for FluxBB
+https://github.com/yrosen/FluxBB-Midnight-Theme
+
 Dark theme, developed for and tested on FluxBB 1.4.
 To use, just copy the files to your FBB 'styles' folder, and select 'midnight' in the admin panel.
 
+This theme uses some browser-specific CSS & CSS3 - may not work in older browsers or Internet Explorer. Try it out!
 
-My TODO list:
+To do eventually:
  - Buttons
- - Code boxes, h* elements, blockquotes, not sure what else
- - Admin panel & profile pages
- - Maybe some cool text effect for header
- - Test in things other than Firefox
+ - More cross-compatibility...
+ - Clean up & re-factor the CSS file
 
 If you use it, please let me know! Feedback, questions, etc - you can contact me at yudi42@gmail.com.
