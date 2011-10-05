@@ -1460,10 +1460,6 @@ html, body, .pun {
 	border-color: #101010;
 }
 
-.pun #users1 h2 {
-	background: #fff;
-}
-
 .pun .blocktable td {
 	border-color: #101010;
 }
@@ -1559,11 +1555,12 @@ tr.roweven {
 }
 
 .pun .forminfo {
-	border-color: #dfe6ee;
+	border-color: #202020;
+	background: #151515;
 }
 
 #puninstall form#install .forminfo {
-	background: #44699c;
+	background: #151515;
 	color: #fff;
 }
 
